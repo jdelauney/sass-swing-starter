@@ -1,4 +1,5 @@
 import { terser } from "rollup-plugin-terser";
+import { nodeResolve } from '@rollup/plugin-node-resolve';
 
 export default 	{
 	input: 'src/scripts/script_index.js',
@@ -14,11 +15,12 @@ export default 	{
 			drop_debugger: true
 		},
 		output: { quote_style: 1 }
-	})
+	}),
+		nodeResolve()
 	],
 	output: {
-		name: 'sass-swing',
-		file: 'public/scripts/script_index.min.js',
+		name: 'sass-swing-core',
+		file: 'dist/public/scripts/script_index.min.js',
 		format: 'umd',
 		sourcemap:false
 	}

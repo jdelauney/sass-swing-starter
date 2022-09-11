@@ -1,3 +1,5 @@
+----
+#
 <p align="center" style="font-size:3.2em; font-weight:900;">
 sass-swing-starter
 </p>
@@ -26,7 +28,10 @@ Modèle de démarrage pour le framework SCSS/CSS <a href="https://github.com/jde
     <img alt="MIT License" src="https://img.shields.io/github/license/jdelauney/sass-swing-starter.svg?style=for-the-badge">
   </a>
 </p>
-<hr/>
+
+#
+
+----
 
 ## Vue d'ensemble
 Starter kit pour démarrer un nouveau projet front-end avec **Sass Swing**
