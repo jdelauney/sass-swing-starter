@@ -31,7 +31,7 @@
     "postbuild": "echo '[@sass-swing] Build done.'",
     "prescss:compile": "echo '[@sass-swing] Compile .scss files'",
     "precss:optimize": "echo '[@sass-swing] Optimize .css files'",
-    "scss:compile": "sass --no-source-map --no-error-css --no-error-css src/scss:dist/styles/",
+    "scss:compile": "sass --no-source-map --no-error-css --no-error-css src/styles/scss:dist/styles/",
     "css:optimize": "postcss dist/styles/**/*.css !dist/styles/**/*.min.css --dir dist/styles/ --ext .min.css",
     "prehtml:copy": "echo '[@sass-swing] Copy HTML files to dist'",
     "html:copy": "cp src/**/*.html dist/",
